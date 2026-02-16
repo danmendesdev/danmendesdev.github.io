@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Gil Mendes | Professional History Intel</title>
+    <title>Daniel Gil Mendes | Career Intelligence Center</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
             transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .career-card.is-open .detail-content {
-            max-height: 10000px;
+            max-height: 5000px;
         }
         .career-card.is-open .rotate-icon { transform: rotate(45deg); }
         .rotate-icon { transition: transform 0.3s ease; }
@@ -68,8 +68,6 @@
         }
 
         .intel-log { background: #f1f5f9; border-left: 4px solid #cbd5e1; padding: 1rem; margin-top: 1.5rem; border-radius: 0 0.75rem 0.75rem 0; }
-        .transcript-content { display: none; margin-top: 1rem; border-top: 1px dashed #cbd5e1; padding-top: 1rem; }
-        .transcript-toggle:checked ~ .transcript-content { display: block; }
 
         @media (max-width: 1024px) {
             .milestone-label { display: none; }
@@ -80,425 +78,239 @@
 </head>
 <body class="text-slate-900 leading-tight">
 
-    <!-- Navegação -->
+    <!-- Navegação Pública -->
     <nav class="fixed top-0 w-full z-50 glass border-b border-slate-200 no-print">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <span class="font-extrabold text-xs tracking-widest text-slate-900 uppercase">Histórico Profissional | <span class="text-blue-600">Daniel Gil Mendes</span></span>
-            <div class="flex items-center gap-3 font-bold text-[10px] text-slate-400 italic text-right">
-                Centro de Inteligência de Carreira
+            <span class="font-extrabold text-xs tracking-widest text-slate-900 uppercase">Daniel Mendes | <span class="text-blue-600">Career Intel Center</span></span>
+            <div class="flex items-center gap-3 font-bold text-[10px] text-slate-400 italic">
+                Engineering Manager & Tech Lead
             </div>
         </div>
     </nav>
 
-    <!-- Cabeçalho Principal -->
+    <!-- Cabeçalho -->
     <header class="pt-32 pb-16 px-6 bg-white border-b border-slate-200">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 items-center">
             <div class="md:col-span-2">
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-[10px] font-black tracking-widest uppercase mb-6 border border-blue-100">
-                    Dashboard de Carreira Executiva
+                    Dashboard Profissional Executivo
                 </div>
                 <h1 class="text-6xl font-black text-slate-900 tracking-tighter mb-6 leading-none">Daniel Gil Mendes</h1>
                 <p class="text-2xl text-slate-500 font-light max-w-2xl leading-relaxed">
-                    Evolução estratégica de <span class="text-slate-900 font-semibold underline decoration-blue-500 decoration-4">20 anos</span>,
-                    da base técnica rigorosa à liderança estratégica no <span class="text-slate-900 font-medium italic underline decoration-blue-500">Open Finance</span>.
+                    Trajetória de <span class="text-slate-900 font-semibold underline decoration-blue-500 decoration-4">20 anos</span> no mercado financeiro, conectando excelência técnica em sistemas de missão crítica à liderança estratégica de engenharia.
                 </p>
             </div>
             <div class="p-6 bg-slate-900 rounded-3xl text-white shadow-2xl border border-slate-800">
-                <p class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-2 font-mono">Cargo Atual</p>
+                <p class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-2 font-mono">Posição Atual</p>
                 <p class="text-2xl font-bold">Engineering Manager</p>
-                <p class="text-blue-400 font-medium text-lg italic">XP Inc. | Open Finance</p>
+                <p class="text-blue-400 font-medium text-lg italic tracking-tight">XP Inc. | Open Finance</p>
             </div>
         </div>
     </header>
 
-    <!-- Indicadores de Impacto -->
+    <!-- Indicadores de Impacto Públicos -->
     <section class="max-w-7xl mx-auto px-6 -mt-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Impacto Mensal</p>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Monetização de Dados</p>
                 <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">R$ 12M</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Oportunidades Open Finance</p>
+                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Oportunidades Mensais / Open Finance</p>
             </div>
             <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Performance API</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">150ms</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Latência de Exposição</p>
-            </div>
-            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Otimização Infra</p>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Eficiência de Infra</p>
                 <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">-60%</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Redução OPEX (Projeto Glete)</p>
+                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Redução de OPEX em Migrações</p>
             </div>
             <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Custos Cloud</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">-20%</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Eficiência Cloud FinOps</p>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Performance de API</p>
+                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">150ms</p>
+                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Latência de Exposição Média</p>
+            </div>
+            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Uptime Projetos</p>
+                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">100%</p>
+                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Sucesso em Migrações Críticas</p>
             </div>
         </div>
     </section>
 
-    <!-- Linha do Tempo Visual -->
+    <!-- Linha do Tempo -->
     <section class="max-w-7xl mx-auto px-6 py-12 no-print overflow-hidden">
-        <h3 class="text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-4 italic">Trajetória Cronológica de Senioridade</h3>
+        <h3 class="text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-4 italic">Trajetória Cronológica</h3>
         <div class="timeline-wrapper">
             <div class="timeline-main-axis">
-                <div class="timeline-milestone">
-                    <div class="milestone-label">Delta Sistemas</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">NOV/2005</div>
-                </div>
-                <div class="timeline-milestone stagger-high">
-                    <div class="milestone-label">OGM Informática</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">FEV/2006</div>
-                </div>
-                <div class="timeline-milestone active stagger-mid">
-                    <div class="milestone-label font-black text-blue-600">Aurum (Jr)</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">OUT/2007</div>
-                </div>
-                <div class="timeline-milestone active">
-                    <div class="milestone-label text-emerald-600 font-bold">Graduação</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">DEZ/2007</div>
-                </div>
-                <div class="timeline-milestone active stagger-high">
-                    <div class="milestone-label font-black text-blue-600">Banif / CGD</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">MAR/2008</div>
-                </div>
-                <div class="timeline-milestone stagger-mid">
-                    <div class="milestone-label text-[7px]">BCG (PJ Atacado)</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">SET/2015</div>
-                </div>
-                <div class="timeline-milestone active">
-                    <div class="milestone-label font-black text-orange-600 font-bold">Rico.com.vc</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">ABR/2016</div>
-                </div>
-                <div class="timeline-milestone active stagger-high">
-                    <div class="milestone-label font-black text-indigo-600 italic">XP Pleno</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">JUL/2017</div>
-                </div>
-                <div class="timeline-milestone active stagger-mid">
-                    <div class="milestone-label font-black text-indigo-600">Senior I</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">FEV/2018</div>
-                </div>
-                <div class="timeline-milestone active stagger-high">
-                    <div class="milestone-label font-black text-indigo-600">Senior II</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">JAN/2021</div>
-                </div>
-                <div class="timeline-milestone active stagger-mid">
-                    <div class="milestone-label font-black text-indigo-600">Senior III</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">JAN/2023</div>
-                </div>
-                <div class="timeline-milestone active">
-                    <div class="milestone-label font-black text-slate-900 border border-slate-200 px-1 py-0.5 rounded bg-white shadow-sm">EM</div>
-                    <div class="timeline-dot"></div>
-                    <div class="milestone-date">SET/2025</div>
-                </div>
+                <div class="timeline-milestone"><div class="milestone-label">Delta</div><div class="timeline-dot"></div><div class="milestone-date">2005</div></div>
+                <div class="timeline-milestone stagger-high"><div class="milestone-label">OGM</div><div class="timeline-dot"></div><div class="milestone-date">2006</div></div>
+                <div class="timeline-milestone active stagger-mid"><div class="milestone-label font-black text-blue-600">Aurum</div><div class="timeline-dot"></div><div class="milestone-date">2007</div></div>
+                <div class="timeline-milestone active"><div class="milestone-label font-black text-blue-600 italic">CGD</div><div class="timeline-dot"></div><div class="milestone-date">2008</div></div>
+                <div class="timeline-milestone active stagger-high"><div class="milestone-label font-black text-orange-600">Rico</div><div class="timeline-dot"></div><div class="milestone-date">2016</div></div>
+                <div class="timeline-milestone active stagger-mid"><div class="milestone-label font-black text-indigo-600">XP SR I</div><div class="timeline-dot"></div><div class="milestone-date">2018</div></div>
+                <div class="timeline-milestone active stagger-high"><div class="milestone-label font-black text-indigo-600">XP SR II</div><div class="timeline-dot"></div><div class="milestone-date">2021</div></div>
+                <div class="timeline-milestone active stagger-mid"><div class="milestone-label font-black text-indigo-600">XP SR III</div><div class="timeline-dot"></div><div class="milestone-date">2023</div></div>
+                <div class="timeline-milestone active"><div class="milestone-label font-black text-slate-900 border border-slate-200 px-1 rounded bg-white">EM</div><div class="timeline-dot"></div><div class="milestone-date">2025</div></div>
             </div>
         </div>
     </section>
 
-    <!-- Conteúdo Principal -->
+    <!-- Feed Cronológico Detalhado -->
     <main class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-3 gap-12">
 
         <!-- Sidebar Analytics -->
         <div class="space-y-8 lg:sticky lg:top-24 h-fit no-print">
-
-            <!-- Pilares de Gestão -->
             <div class="bg-blue-600 p-8 rounded-3xl text-white shadow-xl border-b-4 border-blue-800">
-                <h3 class="text-[10px] font-black uppercase tracking-widest mb-6 italic opacity-80">Fortalezas & Gestão Estratégica</h3>
-                <div class="space-y-5">
-                    <div>
-                        <p class="text-[10px] font-black uppercase text-blue-200 mb-1 italic">Fortaleza: Gestão de Risco Crítico</p>
-                        <p class="text-xs font-medium leading-relaxed">Capacidade comprovada de liderar migrações massivas de dados e infraestrutura física com 100% de sucesso e zero downtime.</p>
-                    </div>
-                    <div>
-                        <p class="text-[10px] font-black uppercase text-blue-200 mb-1 italic">Fortaleza: Engenharia de Performance</p>
-                        <p class="text-xs font-medium leading-relaxed">Badge PTO pela XP; domínio de multi-thread, escalabilidade e arquitetura de motores de migração de alta complexidade.</p>
-                    </div>
-                    <div class="pt-4 border-t border-blue-500/50">
-                        <p class="text-[10px] font-black uppercase text-rose-300 mb-1 italic">Fraqueza & Solução: Mentoria Estruturada</p>
-                        <p class="text-xs font-medium leading-relaxed italic">"Alta disponibilidade resolvida via **Office Hours (Q&A agendado)**, protegendo o tempo da squad sem perder a cultura de ensino."</p>
-                    </div>
+                <h3 class="text-[10px] font-black uppercase tracking-widest mb-6 italic opacity-80">Pilares de Gestão</h3>
+                <div class="space-y-5 text-sm">
+                    <p><strong>Gestão de Risco:</strong> Especialista em migrações massivas de dados e infraestrutura com zero downtime.</p>
+                    <p><strong>Engenharia de Performance:</strong> Especialização em baixa latência e otimização profunda de recursos (Badge PTO).</p>
+                    <p><strong>Mentoria:</strong> Implementação de Office Hours para otimização de conhecimento e proteção de foco.</p>
                 </div>
             </div>
-
-            <!-- Gráficos -->
             <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
-                <h3 class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-6 italic">Evolução de Senioridade</h3>
+                <h3 class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-6 italic">Senioridade</h3>
                 <div class="h-48"><canvas id="growthChart"></canvas></div>
-            </div>
-
-            <div class="bg-slate-900 p-8 rounded-3xl text-white shadow-2xl border border-slate-800">
-                <h3 class="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-6 text-center italic">Radar de Competências</h3>
-                <div class="h-48"><canvas id="skillRadar"></canvas></div>
             </div>
         </div>
 
-        <!-- Feed Cronológico Detalhado -->
-        <div class="lg:col-span-2 space-y-8">
-            <h3 class="text-2xl font-black mb-8 underline decoration-blue-600 decoration-4 underline-offset-8 uppercase tracking-tighter">Memória Profissional Detalhada</h3>
+        <!-- Timeline Principal -->
+        <div class="lg:col-span-2 space-y-6">
 
-            <div class="space-y-6">
-
-                <!-- Delta Sistemas -->
-                <div class="career-card bg-white p-6 rounded-2xl border border-slate-200 hover:border-slate-400 cursor-pointer shadow-sm transition-all" onclick="toggleCard(this)">
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-slate-400 text-white px-2 py-0.5 rounded uppercase font-mono">2005 - 2006</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">Delphi</span>
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">Paradox</span>
-                        </div>
-                        <span class="rotate-icon text-slate-300 font-bold text-xl">+</span>
+            <!-- XP Inc - Fase 2 (Senior II) -->
+            <div class="career-card bg-white p-8 rounded-2xl border border-blue-200 hover:border-blue-600 cursor-pointer shadow-xl transition-all is-open" onclick="toggleCard(this)">
+                <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
+                <div class="flex justify-between items-start mb-2">
+                    <span class="text-[9px] font-black bg-blue-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2021 - 2023</span>
+                    <div class="flex gap-2">
+                        <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold uppercase italic">Migration Lead</span>
+                        <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold uppercase italic">Glete Project</span>
                     </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">Delta Sistemas Ltda</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Desenvolvedor</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Desenvolvimento de ERPs contábeis e fiscais com foco em abstração lógica via DLLs. Responsável pela manutenção de módulos core de folha de pagamento e tributação, elevando a resiliência do código legado.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case">
-                                        <p><strong>P: Stack Técnica?</strong><br>R: Delphi e um banco de dados bem antigo, que se não me engano chamava Paradox.</p>
-                                        <p><strong>P: Impacto além do código?</strong><br>R: Eu sugeri a criação de functions no banco de dados durante a migração para o interbase, para tratar problemas específicos e comuns para todos os módulos e isso foi feito.</p>
-                                        <p><strong>P: A "Saída"?</strong><br>R: Com ctza foi em busca de um desafio técnico maior! Lá usavamos esse banco de dados super antigo, os sistemas vieram do clipper para Delphi e foram construídos com a mesma mentalidade antiga de um sistema que roda no terminal. Alem disso havia problemas de cultura, onde os devs eram proibidos de acessar a Internet e a quantidade de vezes que se levanta para pegar café e água eram reparados.</p>
-                                        <p><strong>P: Semente de Estratégia?</strong><br>R: Certamente houve muito contato com o negócio uma vez q eu não sabia nada e tive q aprender tudo, e isso foi legal. Tive mais evolução de negócio do que técnica aqui.</p>
-                                        <p><strong>P: Ações que geraram impacto?</strong><br>R: nesse momento da minha carreira acho q eu fiz que mais ajudou foi entender o negócio e entender o que eu estava entregando. A ideia aqui é não fazer por fazer, mas entender quais os impactos da minha entrega.</p>
-                                        <p><strong>P: Maiores aprendizados?</strong><br>R: aqui eu aprendi bem como NAO fazer um sistema! Mas tive aprendizados importantes tb, eu aprendi a criar uma DLL e usá-la no Delphi, isso me deu conceitos importantes de tornar o código mais resiliente, agnóstico ao negócio, elevou meu nivel de abstração, que são conceitos importantes na construção de uma lib. Outro ponto bem importante foi um curso de Linux q fiz na Delta, foi aqui q tive o primeiro contato com unix, o q foi mto bom pra mim. Apesar de raso, trouxe um conhecimento conceitual novo e despertou o interesse.</p>
-                                    </div>
-                                </label>
+                    <span class="rotate-icon text-blue-600 font-bold text-xl">+</span>
+                </div>
+                <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter">XP Inc. (Squad Minha Conta Rico)</h4>
+                <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest">Software Engineer Senior II</p>
+                <div class="mt-4 text-sm text-slate-700 leading-relaxed">
+                    Liderança integral do desligamento do <strong>Datacenter Glete</strong> (-60% OPEX infra) e desenvolvimento do <strong>motor de migração core</strong> para o tombamento de clientes Rico. Responsável pela orquestração da esteira de migração na <strong>Squad Minha Conta Rico</strong> (entrada e saída da esteira) e garantia de 100% de integridade financeira e de custódia.
+                </div>
+                <div class="detail-content">
+                    <div class="pt-6 mt-4 border-t border-slate-100">
+                        <div class="intel-log">
+                            <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-blue-600 italic">Desafios & Contexto Técnico</h5>
+                            <div class="font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
+                                <p><strong>Migração de Hardware:</strong> Liderança de ponta a ponta no desligamento de datacenter físico legado, migrando servidores VMware para nova estrutura sem incidentes operacionais ou downtime.</p>
+                                <p><strong>Arquitetura de Orquestração:</strong> Construção do motor de migração responsável por inativar clientes na base legada, calcular custódia/financeiro e gerenciar o rollback automático entre múltiplas squads.</p>
+                                <p><strong>Governança de Dados:</strong> Desenvolvimento de ferramentas de monitoramento em tempo real (SQL/Excel) para identificar "corner cases" e garantir a integridade dos dados durante janelas regulatórias críticas da B3.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- OGM Informática -->
-                <div class="career-card bg-white p-6 rounded-2xl border border-slate-200 hover:border-slate-400 cursor-pointer shadow-sm transition-all" onclick="toggleCard(this)">
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-slate-400 text-white px-2 py-0.5 rounded uppercase font-mono">2006 - 2007</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">MSSQL</span>
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">Firebird</span>
-                        </div>
-                        <span class="rotate-icon text-slate-300 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">Ogm Informatica</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Analista de Sistemas Jr.</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Atuação híbrida entre desenvolvimento e suporte em campo, dominando modelagem de dados relacionais e arquitetura Microsoft. Foco total na experiência do cliente e na continuidade operacional "in loco" para resolução de problemas críticos.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case">
-                                        <p><strong>P: Stack Técnica?</strong><br>R: Na OGM eu ainda continuei com Delphi, mas aqui já usamos MSSQL e Firebird Database.</p>
-                                        <p><strong>P: O Lado "Business"?</strong><br>R: Eu não era só desenvolvedor, eu realmente visitava os clientes, novos e antigos, tanto para fazer a instalação e setup inicial, quanto para resolver problemas _in loco_, o que foi muito bom para me colocar na visão do cliente sobre os problemas encontrados. Como eu atendia clientes, nesse momento eu desenvolvi bons relacionamentos com os clientes, aumentando minhas habilidades de comunicação, alinhamento de expectativa, etc. Foi uma experiencia mto boa nesse sentido.</p>
-                                        <p><strong>P: Impacto Real?</strong><br>R: O desenvolvimento de uma home page foi um exemplo, mas a ideia aqui era trazer inovação para a empresa. Esse era um ponto alinhado com a cultura da empresa, que já buscava inovação tecnologica afim de aumentar a eficiencia. Pra ser honesto eu não sei se essa Home Page foi utilizada pelo cliente num ambiente produtivo no fim das contas.</p>
-                                        <p><strong>P: Aprendizado de Resiliência?</strong><br>R: Nenhuma pressão se comparada ao que eu viria a sofrer na Banif, mas sim, nas resoluções de problemas _in loco_ havia uma expectativa do cliente que todos os problemas fossem solucionados no dia da minha visita (pelo menos os priorizados), então eu sempre tinha isso em mente quando atendia, eu não queria ter q sair e dizer que o problema não havia sido resolvido. Essa interação com o cliente, como eu disse, foi muito rica. Além disso, por eu mesmo dar o suporte no código que eu fazia, a noção da importancia da resiliencia foi ficando cada vez mais clara pra mim para: 1. Não impactar a jornada do cliente, seja ela qual for e 2. Facilitar o meu troubleshooting e entendimento do problema.</p>
-                                        <p><strong>P: Maiores aprendizados?</strong><br>R: Amadureci muito aqui em vários aspectos, mas técnicamente posso citar que aprendi a modelagem de dados para banco de dados relacional pois tinhamos muito aqui era bem feito! Além disso a cultura de se manter atualizado, iamos a conferencias de tecnologia principalmente de Delphi que ajudou a manter o desenvolvimento moderno. Outro ponto importante foi a separação de responsabilidade entre as partes do código, essa segregação já existia quando eu cheguei mas como eu dava suporte aos sistemas, pude valorizar uma boa arquitetura.</p>
-                                        <p><strong>P: A "Saída"?</strong><br>R: O que motivou a minha saída foi a possibilidade de trabalhar numa empresa maior, a OGM só tinha eu e mais um desenvolvedor. Eu estava ainda em busca de um desafio maior.</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Aurum Software -->
-                <div class="career-card bg-white p-6 rounded-2xl border border-slate-200 hover:border-slate-400 cursor-pointer shadow-sm transition-all" onclick="toggleCard(this)">
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-slate-400 text-white px-2 py-0.5 rounded uppercase font-mono">2007 - 2008</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">SVN</span>
-                            <span class="px-2 py-0.5 bg-slate-100 text-[8px] font-mono rounded">WinMerge</span>
-                        </div>
-                        <span class="rotate-icon text-slate-300 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">Aurum Software</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Analista de Sistemas Jr.</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Responsável técnico pela versão Lite do produto core, liderando processos de integração de código (SVN) e documentação operacional. Foco em alinhar o desenvolvimento às necessidades do time de suporte e negócio através de melhores práticas de equipe.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case">
-                                        <p><strong>P: A Stack de Transição?</strong><br>R: Ainda no Delphi, MSSQL, Firebird mas agora Oracle tbm. Além disso, pode ter uma equipe maior, pela primeira vez comecei a usar versionamento de código com o Tortoise SVN e WinMerge para fazer os merges.</p>
-                                        <p><strong>P: Liderança como Júnior?</strong><br>R: A empresa era separada em celulas de desenvolvimento. Eramos em uns 7 devs, 2 seniors, 4 plenos e 1 junior, que era eu. Então a celula q eu assumi era só eu, não foi exatamente uma liderança de equipe, mas sim de produto. Eu era responsável pela versào lite do unico produto da empresa, enquanto que as versões pro e enterprise tinham times maiores com um senior e dois plenos em cada uma.</p>
-                                        <p><strong>P: Segurança e Qualidade?</strong><br>R: Eu era responsável por garantir que the merge fosse realizado corretamente. Havia um tester (QA) para garantir a qualidade de tudo o que subia e frequentemente eram levantados erros classicos de merge. O meu papel era antecipar esse processo, passando para o QA o código mais "maduro".</p>
-                                        <p><strong>P: Interface com Suporte?</strong><br>R: Havia um time específico de suporte, portanto, antes de lançarmos uma versão e passar a bola para que eles a suportassem, precisavamos contruir uma documentação padronizada, como um manual operacional, release notes, principais erros, etc. Isso ajudou a pensar durante o desenvolvimento em como isso impacta o negócio e antecipar possiveis problemas.</p>
-                                        <p><strong>P: Ações de Impacto?</strong><br>R: Apesar de eu fazer muitos scripts de banco de dados aqui, eles eram sempre revisados pelos seniors. O que eu fiz aqui que penso ter ajudado foi observar a absorver as melhores praticas de desenvolvimento em equipes.</p>
-                                        <p><strong>P: Maiores aprendizados?</strong><br>R: Eu destacaria a visão estratégica do produto, visto que haviam várias versões do mesmo produto, era preciso entender onde uma começa e outra termina e escrever um código funcional e que funcionasse em todas. Acabei aprofundando um pouco mais na linguagem e no ecossistema de Delphi aqui, pois usamos diretivas de compilação para segregar as funções, então o build exigia uma parametrização especifica, o que trouxe conhecimentos novos.</p>
-                                        <p><strong>P: Por que saiu?</strong><br>R: Um ponto interessante aqui. Eu na verdade fui desligado por baixa performance, o meu ritmo de entrega caiu quando eu assumi a celula. Mas isso foi importante pra mim em dois aspectos: 1. Me motivou a nunca mais passar por isso, eu decidi que seria mais ágil, mas antenado e mais performatico, e 2. Eu fiz uma auto análise e entendi que o que drenou minha performance foi o preciosismo, onde eu sempre achava uma coisa a mais pra fazer, um ponto a mais para melhorar ou refatorar. Justamente por eu ter assumido a celula, eu tinha essa autonomia, mas não tinha ainda maturidade para isso. O bom é que esse fato me trouxe justamente essa maturidade.</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CGD / Banif -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-blue-100 hover:border-blue-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
-                    <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-blue-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2008 - 2016</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold tracking-tighter">SINACOR</span>
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100">Java Cert</span>
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100">Oracle</span>
-                        </div>
-                        <span class="rotate-icon text-blue-600 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">CGD Corretora (Banif / BCG)</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Analista de Sistemas Pleno</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Domínio técnico do Pós-Trade e integração direta com o ecossistema <strong>SINACOR (Oracle)</strong>. Liderança na migração estratégica Delphi → Java e automação de reconciliação financeira para a <strong>Goldman Sachs</strong>, reduzindo processos manuais de 3h para 10min.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-blue-600 italic">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case">
-                                        <p><strong>P: A Transição Tecnológica?</strong><br>R: Eu entrei na CGD muito por causa do Delphi. Havia um sistema interno que havia sido desenvolvido pelo CTO na época e ngm mais sabia dar manutenção pq era em Delphi. Como eu era o único além dele, eu basicamente assumi a responsabilidade de manter esse sistema assim que entrei. O sistema atendia o backoffice e a mesa institucional da corretora e como ele fazia toda a parte de distribuição das operações negociadas no dia e varios batimentos financeiros, havia uma pressão mto grande por estabilidade. Conforme o sistema foi ganhando corpo e responsabilidades dentro da corretora, surgiu a necessidade de ter mais pessoas atuando nele e nesse momento a companhia tomou a decisão de fazer uma nova versão em Java... Durante a migração para o Java, eu mais aprendi do que ensinei, foi aqui que fiz a certificação Java developer e mais pra frente fiz a academia Web Developer. Na época chegamos a trabalhar com Hibernate, JSF e Primefaces.</p>
-                                        <p><strong>P: Desafios do Sistema Backtrader e SINACOR?</strong><br>R: Nao é exatamente isso. Esse sistema na verdade atendia ao backoffice e a mesa institucional da corretora... ele não fazia o repassamento de ordem propriamente dito... o sistema fazia sim uma parte crítica, mas não do trade, mas sim do pós-trade. Após o término do pregão as mesas precisavam fazer as distribuições das operações nas contas filhas de cada instituição. Esse batimento era feito pelo meu sistema, o Backtrader. Ele recebia um arquivo dos clientes/operadores informando como deveria ser a distribuição e com base nisso ele fazia as distribuições diretamente no banco de dados (oracle) do SINACOR... Isso era uma questão crítica por três aspectos principais: 1. em termos de negócio. 2. O tempo de processamento. 3. desafio e responsabilidade técnica.</p>
-                                        <p><strong>P: Liderança e Middle-Office?</strong><br>R: No período da CGD eu amadureci muito na questão de trabalhar sob pressão e aprendi a fui aprendendo a me impor a medida que fui ganhando confiança. Por fim, mesmo com um longo tempo tendo desempenhado essa função, eu sempre tive um bom relacionamento com os operadores e diretores. Mesmo nos momentos de pressão, sempre tive o feedback de que eu conseguia resolver os problemas, aos poucos fui me tornando uma referencia.</p>
-                                        <p><strong>P: Resiliência e Papel de Confiança?</strong><br>R: Eu sempre tive essa característica de ser uma pessoa confiável, todos os meus lideres sentem muita dificuldade em me perder e na CGD não foi diferente. Como fiquei por longos anos desempenhando essa funçao, eu me tornei uma referencia no time tech, mesmo com a pouca maturidade técnica que tinha, pq a nivel de negócio, eu conhecia muito! posso dizer que dominava todo o dia a dia da parte de negociação e pós negociação da corretora. Com o encerramento das operações, o complexidade caiu drasticamente tbm... aprendi muito sobre infra nesse momento.</p>
-                                        <p><strong>P: Ações de Impacto?</strong><br>R: Ah, eu certamente tive bastante impacto no negócio nesse período. Após dominar a parte de fechamento do dia, no pós-trade, com o Backtrader, a ferramenta começou a evoluir e ampliar o escopo. Começamos a fazer batimentos financeiros diários com as instituições, principalmente com a Goldman Sachs... A planilha financeira gerada pelo backtrader... agilizou/automatizou um processo todo manual q era executado pra isso... o que um analista demorava de duas a tres horas para fazer, o backtrader fazia em no máximo 10 minutos.</p>
-                                        <p><strong>P: Maiores aprendizados?</strong><br>R: Resiliencia com ctza foi um aprendizado, talvez o maior! No caso eu me refiro tanto a resiliencia técnica quanto psicológica... aprendi tbm a usar regex, o que me ajuda até hoje! Aprendi a questionar para entender, a aguentar as pontas e manter a calma num momento de crise e a me impor quando necessário. (Ex: "Quanto mais vc me ligar mais tempo vai demorar! Me deixa trabalhar que eu vou resolver").</p>
-                                        <p><strong>P: A Saída?</strong><br>R: No momento da saída eu já estava pressentindo o encerramento do contrato... Dito isso, no momento em que o meu lider me chamou na sala para me dar a noticia, eu quase que tive que acalma-lo mais do que ele a mim! ... como eu ainda tinha um bom relacionamento com o pessoal da Rico (o CTO da Rico era o mesmo CTO da CGD), eu marquei um bate-papo com eles e como eles já conheciam o meu trabalho não precisou mais do que uma reunião para eu começar na Rico.</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Rico.com.vc -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-orange-100 hover:border-orange-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
-                    <div class="absolute -left-2 top-0 h-full w-2 bg-orange-500 rounded-l-2xl"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-orange-500 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2016 - 2018</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-orange-50 text-orange-700 text-[8px] font-mono rounded border border-orange-100 italic">DevOps</span>
-                            <span class="px-2 py-0.5 bg-orange-50 text-orange-700 text-[8px] font-mono rounded border border-orange-100 italic">RaspPi Bot</span>
-                            <span class="px-2 py-0.5 bg-orange-50 text-orange-700 text-[8px] font-mono rounded border border-orange-100 italic font-bold uppercase tracking-tighter">CX Mindset</span>
-                        </div>
-                        <span class="rotate-icon text-orange-500 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">Rico.com.vc (Grupo XP)</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Software Engineer Pleno</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Transição estratégica para o mindset de Engenheiro de Software focado em <strong>CX e Alta Disponibilidade</strong>. Implementação de monitoria em tempo real via IoT (Raspberry Pi) para alarmística vocal e automação de processos críticos via ferramentas de BPA, elevando a eficiência operacional do varejo.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-orange-600 italic">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case">
-                                        <p><strong>P: A Transição de Perfil e CX?</strong><br>R: Apesar de estar mais focado nas mesas institucionais, durante o meu tempo de Banif / CGD, eu já trabalhava com o varejo tbm... entrava em pauta uma vertente importante: a experiência do cliente... foi exatamente nesse ponto que, mesmo sem perceber, eu estava saindo de um desenvolvedor / analista de sistema para me tornar um engenheiro de software.</p>
-                                        <p><strong>P: O Papel de DevOps e Monitoria?</strong><br>R: Na rico o meu papel era basicamente manter tudo operacional e com a maior disponibilidade possivel... Um dos projetos mais legais dessa época era um script python que ficava consumindo a cotação de mercado a vista e futuro e, em estando atrasada, o nosso script/bot em python "falava" nos televisores (com um raspbaryPi conectado) do escritório... Isso diminuiu mto o tempo de percepção do problema e aumentou a eficiencia.</p>
-                                        <p><strong>P: Integrações de Terceiros e Capilaridade?</strong><br>R: Uma outra parte importante do meu trabalho era garantir o funcionamento e atualização de todos os sistemas que compõem uma corretora, desde os sistema de integração com a BMF e Bovespa, quando sistemas de integração com Bacen (Jud) para movimentações financeiras, sistemas de imposto de renda, compliance, sistemas de bureau de cadastro, sistemas de Renda Fixa, etc. Isso meu deu mto navegabilidade entre as áreas da companhia e mta capilaridade de sistemas.</p>
-                                        <p><strong>P: Impacto no Negócio e BPA?</strong><br>R: Terceira parte fundamental era o desenvolvimento de uma ferramenta interna para apoio operacional... Esse sistema aplicava os planos de corretagem direto no SINACOR... mantinha os vencimentos e liquidações de TD atualizados... Um ponto importante aqui de impacto de negócio era a automação que usávamos com uma ferramenta de BPA chamada Automate, com ela eramos capazes de fazer toda a abertura e fechamento dos sistemas de forma automatizada.</p>
-                                        <p><strong>P: Maiores Aprendizados?</strong><br>R: Aqui foram vários, e importantes! Aqui foi quando eu comecei no C#, no python, monitoramento e alarmística e na visão de colocar o cliente no centro... Rico incentivava muito a nossa evolução, então eu participei de alguns encontros de desenvolvimento na região de sp.</p>
-                                        <p><strong>P: A Saída / Transição?</strong><br>R: Depois que a operação da Rico e da XP foram unidas (não integradas), eu fiquei ainda um bom tempo sendo responsável exclusivamente pela Rico, principalmente no OMS da época, chamado "Kernel"... A "mudança" para a squad de negociação rv dentro da XP foi na verdade um movimento "organico".</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- XP Inc - Fase 1 (Senior I) -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-indigo-100 hover:border-indigo-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
-                    <div class="absolute -left-2 top-0 h-full w-2 bg-indigo-600 rounded-l-2xl"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-indigo-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2018 - 2021</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100 italic underline">Badge PTO</span>
-                            <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100 font-bold">Kernel Guard</span>
-                            <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100">FIX Protocol</span>
-                            <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100 font-bold tracking-tighter italic">PERFORMANCE TUNING</span>
-                        </div>
-                        <span class="rotate-icon text-indigo-600 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">XP Inc. (Squad REX)</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Software Engineer Senior I</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Guardião técnico do OMS <strong>Kernel</strong> e especialista em <strong>Performance Extrema</strong> (Badge PTO). Foco em engenharia de baixa latência, multi-thread e automação de janelas de negociação B3, garantindo estabilidade para mais de 1 milhão de clientes ativos.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-indigo-600 italic">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle">
-                                    <span>Ver Transcrição Q&A Completa ↓</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
-                                        <p><strong>P: O Desafio do "Guardião" (Kernel)?</strong><br>R: O começo da XP foi desafiador, pois apesar de eu já cuidar do Kernel a algum tempo, eu nunca estive fazendo isso sozinho. Bem no comecinho eu não estava sozinho, mas em poucos meses sim, aí eu já cuidava sozinho... Durante esse tempo, não houveram muitos incidentes críticos, o Kernel já era antigo então já era bem estável, mas houveram algumas mudanças para adequação as regras de risco, planos de corretagem e governança da XP, os quais eu fiz basicamente sozinho... eu aprendi muito sobre o protocolo FIX que era usado pela B3 na época. Eu participei de um projeto bem legal tbm chamado "Facilitation"... evoluiu para uma squad de OMS e RMS chamada Squad REX.</p>
-                                        <p><strong>P: Performance Extrema e PTO?</strong><br>R: Nesse período houve muito aprendizado em multi-thread, performance extrema e escalabilidade... Havia uma preocupação imensa com performance, a nível da escolha do datatype da variável para economizar espaço em memória, preocupação em fazer testes por exemplo usando &lt; ao invés de &lt;= pq é mais eficiente... fiz um curso e me certifiquei internamente na XP de otimização de recursos e tunning de performance, com isso ganhei a badge PTO na comunidade XP. Houveram momentos em que haviam uma dúzia de pessoas em pé atrás da minha mesa esperando eu resolver um problema e frequentemente muitos desses eram líderes.</p>
-                                        <p><strong>P: Squad Plataforma OMS e On-Prem?</strong><br>R: A stack era C# com MSSQL, zero Kafka mas muito multi-thread e detalhe, era tudo On-Premises, ou seja, a cada deploy agnt gerava o binário e substituía no servidor. Sobre a não utilização do Kafka, isso foi discutido e foi escolhido não colocar nenhuma infra externa no fluxo de envio de ordem e cálculo de risco, pois apesar de o kafka ser muito rápido, não tem como ser mais rápido do que a memória.</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- XP Inc - Fase 2 (Senior II) -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-blue-200 hover:border-blue-600 cursor-pointer shadow-xl transition-all is-open" onclick="toggleCard(this)">
-                    <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black bg-blue-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2021 - 2023</span>
-                        <div class="flex gap-2">
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold italic tracking-tighter uppercase">Migration Lead</span>
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold italic tracking-tighter uppercase">PROJETO GLETE</span>
-                            <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100">ENGINEERING</span>
-                        </div>
-                        <span class="rotate-icon text-blue-600 font-bold text-xl">+</span>
-                    </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter">XP Inc. (Squad Minha Conta Rico)</h4>
-                    <p class="text-slate-500 text-sm font-bold italic">Software Engineer Senior II</p>
-                    <div class="mt-4 text-sm text-slate-700 leading-relaxed">Liderança integral do desligamento do <strong>Datacenter Glete</strong> (-60% OPEX infra) e desenvolvimento do <strong>motor de migração core</strong> para o tombamento de clientes Rico. Responsável pela orquestração da esteira de migração na <strong>Squad Minha Conta Rico</strong> (entrada e saída da esteira) e garantia de 100% de integridade financeira e de custódia.</div>
-                    <div class="detail-content">
-                        <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
-                            <div class="intel-log">
-                                <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-blue-600 italic">Intelligence Log: Transcrição Fiel</h5>
-                                <label class="cursor-pointer text-[10px] font-black text-blue-600 uppercase hover:underline">
-                                    <input type="checkbox" class="hidden transcript-toggle" checked>
-                                    <span>Ocultar Transcrição Q&A ↑</span>
-                                    <div class="transcript-content font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
-                                        <p><strong>P: O Projeto Glete?</strong><br>R: Esse projeto é um dos que eu tenho mais orgulho... todos os alinhamentos, levantamentos, mapeamentos, acompanhamentos e a gestão geral do projeto eu fiz sozinho... foi um projeto com 100% de sucesso, ou seja, conseguimos atender a data alvo e com 0% de downtime e nenhum incidente relacionado... O projeto em si era desligar esse datacenter, encerrar o contrato, inclusive removendo fisicamente os servidores vmware... conseguimos reduzir o custo de infra em ~60% ao longo do projeto.</p>
-                                        <p><strong>P: Promoção para Sênior II?</strong><br>R: A promoção para senior ii foi uma soma de bons resultados, mas certamente muito impulsionada pelo projeto da Glete. A partir desse momento, como esperado, eu comecei a ter mais responsabilidades, e "a barra subiu" para os meus próximos desafios profissionais.</p>
-                                        <p><strong>P: O Tombamento da Rico e Orquestração?</strong><br>R: O tombamento da Rico foi um projeto que já estava em andamento enquanto eu estava encerrando a Glete... o meu papel nesse projeto foi a construção do motor de migração, a identificação de cenários de corner case nos clientes da rico tendo em vista meu vasto conhecimento da regra de negócio da Rico na época e a execução e acompanhamento durante as ondas de migração. Para ajudar nos preparativos da semana eu construí uma planilha em excel que consultava as bases de dados da rico, inclusive as bases de dados do próprio motor de migração para acompanharmos o status das ondas e dos clientes, essa planilha basicamente gerenciava todo o tombamento do nosso lado... A cada onda de tombamento, havia uma esteira de sistemas... o meu time é a Squad Minha Conta Rico, portanto o meu motor era o primeiro e o último da esteira. Basicamente o meu motor iniciava o processo dentro da base atual da rico, inativando o cliente, calculando a posição da custódia e financeira, pausando os planos de corretagem... Em caso de falha eu faria o rollback do meu processo e marcava o cliente como falha.</p>
-                                        <p><strong>P: Aprendizados Técnicos e Liderança?</strong><br>R: O projeto da Glete me trouxe muitos aprendizados, principalmente em relação a liderança técnica. Eu era o único desenvolvedor do projeto, então eu tinha que tomar muitas decisões técnicas para garantir a performance, escalabilidade e resiliência. Especialmente sobre performance, havia uma cobrança em relação a isso por que era alinhado com a B3 uma janela de processamento para o tombamento, e o processamento dos outros times só começava dps que o meu terminasse.</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- XP Inc - Fase 1 (Senior I) -->
+            <div class="career-card bg-white p-8 rounded-2xl border border-indigo-100 hover:border-indigo-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
+                <div class="absolute -left-2 top-0 h-full w-2 bg-indigo-600 rounded-l-2xl"></div>
+                <div class="flex justify-between items-start mb-2">
+                    <span class="text-[9px] font-black bg-indigo-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2018 - 2021</span>
+                    <div class="flex gap-2">
+                        <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100 italic underline">Badge PTO</span>
+                        <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[8px] font-mono rounded border border-indigo-100 font-bold">FIX Protocol</span>
+                    </div>
+                    <span class="rotate-icon text-indigo-600 font-bold text-xl">+</span>
+                </div>
+                <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter">XP Inc. (Squad REX)</h4>
+                <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest">Software Engineer Senior I</p>
+                <div class="mt-4 text-sm text-slate-700 leading-relaxed">Guardião técnico do OMS <strong>Kernel</strong> e especialista em <strong>Performance Extrema</strong>. Liderança na sustentação de motores de cálculo de risco em tempo real e orquestração de envio de ordens via protocolo FIX para milhões de clientes.</div>
+                <div class="detail-content">
+                    <div class="pt-6 mt-4 border-t border-slate-100">
+                        <div class="intel-log">
+                            <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-indigo-600 italic">Desafios & Contexto Técnico</h5>
+                            <div class="font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
+                                <p><strong>Engineering Excellence:</strong> Otimização profunda de recursos (multi-threading, memory management) em sistemas onde milissegundos impactam o P&L e a confiança do cliente.</p>
+                                <p><strong>Gestão de Crise:</strong> Atuação direta em incidentes operacionais de alta visibilidade, liderando a resolução técnica sob pressão de stakeholders executivos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rico.com.vc -->
+            <div class="career-card bg-white p-8 rounded-2xl border border-orange-100 hover:border-orange-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
+                <div class="absolute -left-2 top-0 h-full w-2 bg-orange-500 rounded-l-2xl"></div>
+                <div class="flex justify-between items-start mb-2">
+                    <span class="text-[9px] font-black bg-orange-500 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2016 - 2018</span>
+                    <div class="flex gap-2">
+                        <span class="px-2 py-0.5 bg-orange-50 text-orange-700 text-[8px] font-mono rounded border border-orange-100 italic">DevOps</span>
+                        <span class="px-2 py-0.5 bg-orange-50 text-orange-700 text-[8px] font-mono rounded border border-orange-100 italic font-bold">CX Mindset</span>
+                    </div>
+                    <span class="rotate-icon text-orange-500 font-bold text-xl">+</span>
+                </div>
+                <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter">Rico.com.vc (Grupo XP)</h4>
+                <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest">Software Engineer Pleno</p>
+                <div class="mt-4 text-sm text-slate-700 leading-relaxed">Transição estratégica para o mindset de Engenheiro de Software focado em <strong>CX e Alta Disponibilidade</strong>. Implementação de monitoria IoT (Raspberry Pi) e automação de processos críticos via ferramentas de BPA.</div>
+                <div class="detail-content">
+                    <div class="pt-6 mt-4 border-t border-slate-100">
+                        <div class="intel-log">
+                            <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-orange-600 italic">Desafios & Contexto Técnico</h5>
+                            <div class="font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
+                                <p><strong>Inovação Pragmática:</strong> Redução do tempo de percepção de incidentes técnicos através de sistemas de alarmística vocal customizados.</p>
+                                <p><strong>Capilaridade Operacional:</strong> Garantia da saúde sistêmica de toda a cadeia da corretora (Compliance, IR, Cadastro) e automação de janelas de abertura/fechamento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CGD / Banif -->
+            <div class="career-card bg-white p-8 rounded-2xl border border-blue-100 hover:border-blue-400 cursor-pointer shadow-lg transition-all" onclick="toggleCard(this)">
+                <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
+                <div class="flex justify-between items-start mb-2">
+                    <span class="text-[9px] font-black bg-blue-600 text-white px-2 py-0.5 rounded uppercase tracking-widest font-mono">2008 - 2016</span>
+                    <span class="px-2 py-0.5 bg-blue-50 text-blue-700 text-[8px] font-mono rounded border border-blue-100 font-bold uppercase tracking-tighter italic">SINACOR Expert</span>
+                    <span class="rotate-icon text-blue-600 font-bold text-xl">+</span>
+                </div>
+                <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter">CGD Corretora (Banif / BCG)</h4>
+                <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest">Analista de Sistemas Pleno</p>
+                <div class="mt-4 text-sm text-slate-700 leading-relaxed">Especialista em <strong>Pós-Trade</strong> e processos críticos de liquidação financeira no SINACOR (Oracle). Liderança técnica na migração estratégica Delphi para Java e automação institucional massiva.</div>
+                <div class="detail-content">
+                    <div class="pt-6 mt-4 border-t border-slate-100">
+                        <div class="intel-log">
+                            <h5 class="text-[10px] font-black uppercase text-slate-500 mb-2 tracking-widest font-bold text-blue-600 italic">Desafios & Contexto Técnico</h5>
+                            <div class="font-mono text-[10px] text-slate-600 space-y-4 bg-white p-4 rounded border border-slate-200 normal-case leading-relaxed">
+                                <p><strong>Backtrader:</strong> Responsável pelo sistema de distribuição de operações em tempo real diretamente no banco core da corretora, lidando com janelas críticas de liquidação.</p>
+                                <p><strong>Automação Financeira:</strong> Substituição de processos manuais de alta complexidade por algoritmos de reconciliação, gerando ganhos de eficiência de 18x.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outras experiências simplificadas para o portfólio público -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded-xl border border-slate-200">
+                    <p class="text-[10px] font-bold text-blue-600 uppercase">Aurum (2007)</p>
+                    <p class="text-xs font-bold text-slate-900">Analista Jr.</p>
+                    <p class="text-[10px] text-slate-500 mt-1">Liderança da versão Lite e gestão de releases.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-200">
+                    <p class="text-[10px] font-bold text-blue-600 uppercase">OGM (2006)</p>
+                    <p class="text-xs font-bold text-slate-900">Analista Jr.</p>
+                    <p class="text-[10px] text-slate-500 mt-1">Desenvolvimento e suporte especializado em campo.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-200">
+                    <p class="text-[10px] font-bold text-blue-600 uppercase">Delta (2005)</p>
+                    <p class="text-xs font-bold text-slate-900">Desenvolvedor</p>
+                    <p class="text-[10px] text-slate-500 mt-1">Início da jornada técnica com Delphi e ERPs.</p>
+                </div>
+            </div>
+
         </div>
     </main>
 
     <footer class="py-12 text-center text-slate-400 border-t border-slate-200 no-print font-mono">
-        <p class="text-[10px] font-black tracking-widest uppercase italic">Professional History | Daniel Gil Mendes © 2026</p>
+        <p class="text-[10px] font-black tracking-widest uppercase italic">Daniel Gil Mendes | Career Portfolio © 2026</p>
+        <div class="mt-4 flex justify-center gap-4">
+            <a href="https://domtech.com.br" class="text-blue-600 hover:underline text-[10px] font-bold">DomTech Solutions</a>
+            <span class="text-slate-300">|</span>
+            <a href="https://linkedin.com/in/daniel-gil-mendes" class="text-blue-600 hover:underline text-[10px] font-bold">LinkedIn</a>
+        </div>
     </footer>
 
     <script>
@@ -508,19 +320,10 @@
             new Chart(ctxL, {
                 type: 'line',
                 data: {
-                    labels: ['2005','2008','2017','2018','2021','2023','2025'],
-                    datasets: [{ label: 'Sênioridade', data: [1, 2, 2, 4, 5, 6, 7], borderColor: '#2563eb', borderWidth: 3, pointRadius: 3, tension: 0.3, fill: false }]
+                    labels: ['2005','2008','2016','2018','2021','2023','2025'],
+                    datasets: [{ label: 'Senioridade', data: [1, 2, 3, 4, 5, 6, 7], borderColor: '#2563eb', borderWidth: 3, pointRadius: 3, tension: 0.3, fill: false }]
                 },
                 options: { responsive: true, maintainAspectRatio: false, scales: { y: { display: false }, x: { grid: { display: false }, ticks: { font: { size: 8 } } } }, plugins: { legend: { display: false } } }
-            });
-            const ctxR = document.getElementById('skillRadar').getContext('2d');
-            new Chart(ctxR, {
-                type: 'radar',
-                data: {
-                    labels: ['Engineering Mgmt','Architecture','Business Context','Data Strategy','System Resilience','Cloud & Infra'],
-                    datasets: [{ data: [95, 99, 98, 98, 100, 98], backgroundColor: 'rgba(59, 130, 246, 0.2)', borderColor: '#3b82f6', borderWidth: 1 }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: 'rgba(255,255,255,0.05)' }, pointLabels: { color: '#94a3b8', font: { size: 7, weight: 'bold' } }, ticks: { display: false }, min: 0, max: 100 } }, plugins: { legend: { display: false } } }
             });
         };
     </script>
