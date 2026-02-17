@@ -19,7 +19,7 @@
             transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .career-card.is-open .detail-content {
-            max-height: 5000px;
+            max-height: 10000px;
         }
         .career-card.is-open .rotate-icon { transform: rotate(45deg); }
         .rotate-icon { transition: transform 0.3s ease; }
@@ -63,89 +63,89 @@
 
     <!-- Navegação -->
     <nav class="fixed top-0 w-full z-50 glass border-b border-slate-200 no-print">
-        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <span class="font-extrabold text-xs tracking-widest text-slate-900 uppercase tracking-tighter">Daniel Mendes | <span class="text-blue-600">Career Intel Center</span></span>
-            <div class="flex items-center gap-3 font-bold text-[10px] text-slate-400 italic">
-                Engineering Manager & Tech Lead
+        <div class="max-w-7xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+            <span class="font-extrabold text-[10px] md:text-xs tracking-widest text-slate-900 uppercase tracking-tighter">Daniel Mendes | <span class="text-blue-600">Career Intel Center</span></span>
+            <div class="hidden sm:flex items-center gap-3 font-bold text-[10px] text-slate-400 italic text-right">
+                Engineering Manager
             </div>
         </div>
     </nav>
 
     <!-- Cabeçalho Principal -->
-    <header class="pt-32 pb-16 px-6 bg-white border-b border-slate-200">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 items-center text-left">
+    <header class="pt-24 md:pt-32 pb-12 md:pb-16 px-4 md:px-6 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 md:gap-12 items-center text-left">
             <div class="md:col-span-2">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-[10px] font-black tracking-widest uppercase mb-6 border border-blue-100">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-[9px] md:text-[10px] font-black tracking-widest uppercase mb-4 md:mb-6 border border-blue-100">
                     Dashboard Profissional Executivo
                 </div>
-                <h1 class="text-6xl font-black text-slate-900 tracking-tighter mb-6 leading-none">Daniel Gil Mendes</h1>
-                <p class="text-2xl text-slate-500 font-light max-w-2xl leading-relaxed">
+                <h1 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-4 md:mb-6 leading-none">Daniel Gil Mendes</h1>
+                <p class="text-lg md:text-2xl text-slate-500 font-light max-w-2xl leading-relaxed">
                     Trajetória de <span class="text-slate-900 font-semibold underline decoration-blue-500 decoration-4">20 anos</span> no mercado financeiro, conectando excelência técnica em sistemas de missão crítica à liderança estratégica de engenharia.
                 </p>
             </div>
             <div class="p-6 bg-slate-900 rounded-3xl text-white shadow-2xl border border-slate-800">
                 <p class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-2 font-mono">Cargo Atual</p>
-                <p class="text-2xl font-bold">Engineering Manager</p>
-                <p class="text-blue-400 font-medium text-lg italic tracking-tight">XP Inc. | Open Finance</p>
+                <p class="text-xl md:text-2xl font-bold">Engineering Manager</p>
+                <p class="text-blue-400 font-medium text-base md:text-lg italic tracking-tight">XP Inc. | Open Finance</p>
             </div>
         </div>
     </header>
 
     <!-- Indicadores de Impacto -->
-    <section class="max-w-7xl mx-auto px-6 -mt-8">
+    <section class="max-w-7xl mx-auto px-4 md:px-6 -mt-6 md:-mt-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Monetização de Dados</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">R$ 12M</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Oportunidades Mensais / Open Finance</p>
+            <div class="bg-white p-5 md:p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
+                <p class="text-slate-500 text-[10px] md:text-xs font-bold uppercase tracking-wider">Monetização de Dados</p>
+                <p class="text-3xl md:text-4xl font-black text-slate-900 mt-1 tracking-tighter">R$ 12M</p>
+                <p class="text-slate-400 text-[9px] md:text-[10px] font-medium italic mt-1 uppercase">Mensais / Open Finance</p>
             </div>
-            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Performance de API</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">150ms</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Latência de Exposição Média</p>
+            <div class="bg-white p-5 md:p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
+                <p class="text-slate-500 text-[10px] md:text-xs font-bold uppercase tracking-wider">Performance de API</p>
+                <p class="text-3xl md:text-4xl font-black text-slate-900 mt-1 tracking-tighter">150ms</p>
+                <p class="text-slate-400 text-[9px] md:text-[10px] font-medium italic mt-1 uppercase">Latência Média</p>
             </div>
-            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Otimização de Infra</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">-60%</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Redução OPEX (Projeto Glete)</p>
+            <div class="bg-white p-5 md:p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
+                <p class="text-slate-500 text-[10px] md:text-xs font-bold uppercase tracking-wider">Otimização de Infra</p>
+                <p class="text-3xl md:text-4xl font-black text-slate-900 mt-1 tracking-tighter">-60%</p>
+                <p class="text-slate-400 text-[9px] md:text-[10px] font-medium italic mt-1 uppercase">Redução OPEX (Glete)</p>
             </div>
-            <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
-                <p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Eficiência Cloud</p>
-                <p class="text-4xl font-black text-slate-900 mt-1 tracking-tighter">-20%</p>
-                <p class="text-slate-400 text-[10px] font-medium italic mt-1 uppercase">Custos Azure AKS (Rightsizing)</p>
+            <div class="bg-white p-5 md:p-6 rounded-3xl shadow-xl border border-slate-100 transform hover:scale-105 transition-transform duration-300">
+                <p class="text-slate-500 text-[10px] md:text-xs font-bold uppercase tracking-wider">Eficiência Cloud</p>
+                <p class="text-3xl md:text-4xl font-black text-slate-900 mt-1 tracking-tighter">-20%</p>
+                <p class="text-slate-400 text-[9px] md:text-[10px] font-medium italic mt-1 uppercase">Custos Azure AKS</p>
             </div>
         </div>
     </section>
 
     <!-- Conteúdo Principal -->
-    <main class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <main class="max-w-7xl mx-auto px-4 md:px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
 
-        <!-- Sidebar Analytics -->
-        <div class="space-y-8 lg:sticky lg:top-24 h-fit no-print">
-            <div class="bg-blue-600 p-8 rounded-3xl text-white shadow-xl border-b-4 border-blue-800 text-left">
+        <!-- Sidebar Analytics (Aparece depois no mobile com lg:order-last ou apenas mantendo a ordem se preferir) -->
+        <div class="space-y-8 lg:sticky lg:top-24 h-fit no-print order-last lg:order-none">
+            <div class="bg-blue-600 p-6 md:p-8 rounded-3xl text-white shadow-xl border-b-4 border-blue-800 text-left">
                 <h3 class="text-[10px] font-black uppercase tracking-widest mb-6 italic opacity-80">Fortalezas & Gestão Estratégica</h3>
                 <div class="space-y-5">
                     <div>
                         <p class="text-[10px] font-black uppercase text-blue-200 mb-1 italic">Fortaleza: Gestão de Risco Crítico</p>
-                        <p class="text-xs font-medium leading-relaxed">Liderança de migrações massivas de dados e infraestrutura com 100% de sucesso e zero downtime.</p>
+                        <p class="text-xs font-medium leading-relaxed text-justify">Liderança de migrações massivas de dados e infraestrutura com 100% de sucesso e zero downtime.</p>
                     </div>
                     <div>
                         <p class="text-[10px] font-black uppercase text-blue-200 mb-1 italic">Fortaleza: Performance Extrema</p>
-                        <p class="text-xs font-medium leading-relaxed">Badge PTO pela XP; domínio de baixa latência e otimização profunda de recursos.</p>
+                        <p class="text-xs font-medium leading-relaxed text-justify">Badge PTO pela XP; domínio de baixa latência e otimização profunda de recursos.</p>
                     </div>
                     <div class="pt-4 border-t border-blue-500/50">
                         <p class="text-[10px] font-black uppercase text-rose-300 mb-1 italic">Estratégia de Mentoria</p>
-                        <p class="text-xs font-medium leading-relaxed italic">"Alta disponibilidade resolvida via Office Hours, protegendo o foco da squad."</p>
+                        <p class="text-xs font-medium leading-relaxed italic text-justify">"Alta disponibilidade resolvida via Office Hours, protegendo o foco da squad."</p>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm text-left">
+            <div class="bg-white p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm text-left">
                 <h3 class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-6 italic">Evolução de Senioridade</h3>
                 <div class="h-48"><canvas id="growthChart"></canvas></div>
             </div>
 
-            <div class="bg-slate-900 p-8 rounded-3xl text-white shadow-2xl border border-slate-800">
+            <div class="bg-slate-900 p-6 md:p-8 rounded-3xl text-white shadow-2xl border border-slate-800">
                 <h3 class="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-6 text-center italic">Radar de Competências</h3>
                 <div class="h-48"><canvas id="skillRadar"></canvas></div>
             </div>
@@ -158,17 +158,16 @@
             <div class="space-y-6">
 
                 <!-- XP Inc - EM -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-blue-600 shadow-xl cursor-pointer transition-all is-open" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-blue-600 shadow-xl cursor-pointer transition-all is-open" onclick="toggleCard(this)">
                     <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Open Finance</span>
                             <span class="business-tag">Gestão Estratégica</span>
-                            <span class="business-tag">Escalabilidade</span>
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2023 - Presente</span>
                     </div>
-                    <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad Open Finance Dados)</h4>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad Open Finance Dados)</h4>
                     <p class="text-blue-600 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Engineering Manager</p>
                     
                     <div class="mb-6 text-left">
@@ -178,7 +177,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Liderança estratégica de times multidisciplinares na vertical de <strong>Open Finance</strong>. Foco em escalabilidade de plataforma, monetização de dados e governança técnica de APIs de alta criticidade regulatória.
                     </div>
 
@@ -203,7 +202,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Detalhes da Experiência & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Como gestor da vertical de dados, minha participação foca em elevar a maturidade da engenharia, garantindo que a plataforma suporte o crescimento exponencial do ecossistema regulatório. O grande aprendizado aqui é a conciliação entre a agilidade de entrega e o rigor técnico exigido pelo Banco Central, mantendo o time engajado e protegido em um ambiente de alta pressão.
                                 </p>
                             </div>
@@ -213,17 +212,16 @@
                 </div>
 
                 <!-- XP Inc - Sr II/III -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-blue-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-blue-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="absolute -left-2 top-0 h-full w-2 bg-blue-500 rounded-l-2xl"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Migração Crítica</span>
-                            <span class="business-tag">Eficiência Operacional</span>
                             <span class="business-tag">Glete Project</span>
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2021 - 2023</span>
                     </div>
-                    <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad Minha Conta Rico)</h4>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad Minha Conta Rico)</h4>
                     <p class="text-blue-600 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Software Engineer Senior II / III</p>
 
                     <div class="mb-6 text-left">
@@ -233,7 +231,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Liderança do desligamento do <strong>Datacenter Glete</strong> e desenvolvimento do <strong>motor core de migração</strong> para o tombamento de clientes Rico. Responsável pela integridade financeira e de custódia durante janelas críticas da B3.
                     </div>
 
@@ -258,7 +256,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Detalhes da Experiência & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Assumi a responsabilidade solitária por alinhamentos e execução da migração de hardware legado para novas estruturas. O maior aprendizado foi a construção de ferramentas de monitoramento em tempo real que permitiram identificar corner cases antes que impactassem a migração, consolidando minha habilidade de liderança técnica.
                                 </p>
                             </div>
@@ -267,17 +265,16 @@
                 </div>
 
                 <!-- XP Inc - Sr I -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-indigo-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-indigo-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="absolute -left-2 top-0 h-full w-2 bg-indigo-600 rounded-l-2xl"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">OMS</span>
                             <span class="business-tag">Baixa Latência</span>
-                            <span class="business-tag">Performance Extrema</span>
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2018 - 2021</span>
                     </div>
-                    <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad REX)</h4>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">XP Inc. (Squad REX)</h4>
                     <p class="text-indigo-600 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Software Engineer Senior I</p>
 
                     <div class="mb-6 text-left">
@@ -287,7 +284,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Guardião técnico do OMS <strong>Kernel</strong> e especialista em <strong>Performance Extrema</strong>. Sustentação de motores de cálculo de risco em tempo real e orquestração de envio de ordens via protocolo FIX.
                     </div>
 
@@ -312,7 +309,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Detalhes da Experiência & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Responsável por manter a estabilidade do coração de negociação da Rico durante a integração com a XP. O foco era performance extrema, onde escolhas de datatypes impactavam diretamente a memória. Aprendi a operar em sistemas onde milissegundos definem o P&L, desenvolvendo resiliência técnica ímpar para resolver crises sob alta visibilidade.
                                 </p>
                             </div>
@@ -321,17 +318,16 @@
                 </div>
 
                 <!-- Rico -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-orange-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-orange-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="absolute -left-2 top-0 h-full w-2 bg-orange-500 rounded-l-2xl"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Customer Experience</span>
                             <span class="business-tag">Automação BPA</span>
-                            <span class="business-tag">Disponibilidade</span>
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2016 - 2018</span>
                     </div>
-                    <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">Rico.com.vc (Grupo XP)</h4>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">Rico.com.vc (Grupo XP)</h4>
                     <p class="text-orange-600 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Software Engineer Pleno</p>
 
                     <div class="mb-6 text-left">
@@ -341,7 +337,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Transição estratégica para o mindset de Engenheiro de Software focado em <strong>Experiência do Cliente (CX)</strong>. Implementação de monitoria IoT e automação de processos críticos de backoffice.
                     </div>
 
@@ -366,7 +362,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Detalhes da Experiência & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Saí do papel de desenvolvedor puro para me tornar um engenheiro focado no negócio. Aprendi a importância da capilaridade sistêmica, garantindo o funcionamento de toda a cadeia (Compliance, IR, Cadastro). O grande aprendizado foi colocar o cliente no centro de cada decisão técnica.
                                 </p>
                             </div>
@@ -375,17 +371,16 @@
                 </div>
 
                 <!-- CGD -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-blue-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-blue-400 shadow-lg cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="absolute -left-2 top-0 h-full w-2 bg-blue-600 rounded-l-2xl"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Pós-Trade</span>
                             <span class="business-tag">SINACOR</span>
-                            <span class="business-tag">Liquidação</span>
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2008 - 2016</span>
                     </div>
-                    <h4 class="text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">CGD Corretora (Banif / BCG)</h4>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter text-left">CGD Corretora (Banif / BCG)</h4>
                     <p class="text-blue-600 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Analista de Sistemas Pleno</p>
 
                     <div class="mb-6 text-left">
@@ -395,7 +390,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Especialista em <strong>Pós-Trade</strong> e processos core de liquidação no SINACOR. Liderança técnica na migração Delphi → Java e automação de reconciliação de alta escala.
                     </div>
 
@@ -419,7 +414,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Detalhes da Experiência & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Consolidei meu domínio sobre o ecossistema bancário. Aprendi a trabalhar sob pressão extrema em janelas de fechamento. O principal aprendizado foi entender que ser "confiável" é a base para se tornar referência técnica em momentos de crise.
                                 </p>
                             </div>
@@ -428,7 +423,7 @@
                 </div>
 
                 <!-- Aurum -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Produto Lite</span>
@@ -436,7 +431,7 @@
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2007 - 2008</span>
                     </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Aurum Software</h4>
+                    <h4 class="text-xl md:text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Aurum Software</h4>
                     <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Analista de Sistemas Jr.</p>
 
                     <div class="mb-6 text-left">
@@ -446,7 +441,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Liderança de produto da versão <strong>Lite</strong>. Responsável pela integridade de merges e transição de código para suporte e QA.
                     </div>
 
@@ -454,7 +449,7 @@
                         <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
                             <div>
                                 <span class="section-label">Skills Desenvolvidas</span>
-                                <ul class="text-xs text-slate-600 list-disc list-inside font-medium">
+                                <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside font-medium">
                                     <li>Versionamento de Código (SVN)</li>
                                     <li>Gestão de Ciclo de Vida de Produto</li>
                                     <li>Documentação Técnica & Release Notes</li>
@@ -462,7 +457,7 @@
                             </div>
                             <div>
                                 <span class="section-label">Highlights & Aprendizados</span>
-                                <p class="text-xs text-slate-600 leading-relaxed italic">
+                                <p class="text-xs text-slate-600 leading-relaxed italic text-justify">
                                     "Aprendi que o preciosismo pode drenar a entrega. Evoluí para uma postura ágil focada em resultados reais de negócio."
                                 </p>
                             </div>
@@ -471,7 +466,7 @@
                 </div>
 
                 <!-- OGM -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">Troubleshooting</span>
@@ -479,7 +474,7 @@
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2006 - 2007</span>
                     </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Ogm Informatica</h4>
+                    <h4 class="text-xl md:text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Ogm Informatica</h4>
                     <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Analista de Sistemas Jr.</p>
 
                     <div class="mb-6 text-left">
@@ -489,7 +484,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Atuação híbrida entre desenvolvimento e suporte em campo. Foco em modelagem relacional e resolução de problemas críticos diretamente no cliente.
                     </div>
 
@@ -497,14 +492,14 @@
                         <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
                             <div>
                                 <span class="section-label">Skills Desenvolvidas</span>
-                                <ul class="text-xs text-slate-600 list-disc list-inside font-medium">
+                                <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside font-medium">
                                     <li>Modelagem de Dados Relacional Avançada</li>
                                     <li>Relacionamento & Comunicação com Cliente</li>
                                 </ul>
                             </div>
                             <div>
                                 <span class="section-label">Detalhes</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Resolver problemas diretamente no ambiente do cliente foi fundamental para entender o impacto real de falhas técnicas na jornada do usuário.
                                 </p>
                             </div>
@@ -513,7 +508,7 @@
                 </div>
 
                 <!-- Delta -->
-                <div class="career-card bg-white p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
+                <div class="career-card bg-white p-6 md:p-8 rounded-2xl border border-slate-200 hover:border-slate-400 shadow-sm cursor-pointer transition-all" onclick="toggleCard(this)">
                     <div class="flex justify-between items-start mb-4">
                         <div class="flex flex-wrap gap-2">
                             <span class="business-tag">ERP Contábil</span>
@@ -521,7 +516,7 @@
                         </div>
                         <span class="text-[10px] font-black text-slate-400 font-mono">2005 - 2006</span>
                     </div>
-                    <h4 class="text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Delta Sistemas Ltda</h4>
+                    <h4 class="text-xl md:text-2xl font-black text-slate-900 uppercase tracking-tighter text-left">Delta Sistemas Ltda</h4>
                     <p class="text-slate-500 text-sm font-bold italic uppercase tracking-widest mb-4 text-left">Desenvolvedor</p>
 
                     <div class="mb-6 text-left">
@@ -531,7 +526,7 @@
                         </div>
                     </div>
 
-                    <div class="text-sm text-slate-700 leading-relaxed mb-4">
+                    <div class="text-sm text-slate-700 leading-relaxed mb-4 text-justify">
                         Início da jornada técnica com foco em ERPs. Implementação de funções de banco de dados e abstração via DLLs.
                     </div>
 
@@ -539,14 +534,14 @@
                         <div class="pt-6 mt-4 border-t border-slate-100 space-y-6">
                             <div>
                                 <span class="section-label">Skills Desenvolvidas</span>
-                                <ul class="text-xs text-slate-600 list-disc list-inside font-medium">
+                                <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside font-medium">
                                     <li>Lógica Delphi & DLLs</li>
                                     <li>Fundamentos de Sistemas Linux</li>
                                 </ul>
                             </div>
                             <div>
                                 <span class="section-label">Aprendizado</span>
-                                <p class="text-xs text-slate-600 leading-relaxed">
+                                <p class="text-xs text-slate-600 leading-relaxed text-justify">
                                     Primeiro contato com abstração que permitiu tornar o código agnóstico ao negócio, elevando a resiliência de sistemas legados.
                                 </p>
                             </div>
@@ -560,7 +555,7 @@
 
     <footer class="py-12 text-center text-slate-400 border-t border-slate-200 no-print font-mono">
         <p class="text-[10px] font-black tracking-widest uppercase italic">Daniel Gil Mendes | Career Portfolio © 2026</p>
-        <div class="mt-4 flex justify-center gap-4">
+        <div class="mt-4 flex flex-wrap justify-center gap-4">
             <a href="https://domtech.com.br" class="text-blue-600 hover:underline text-[10px] font-bold">DomTech Solutions</a>
             <span class="text-slate-300">|</span>
             <a href="https://github.com/danmendesdev" class="text-blue-600 hover:underline text-[10px] font-bold">GitHub Portfolio</a>
